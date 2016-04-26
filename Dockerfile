@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 
 MAINTAINER wuwuyun1989@gmail.com
 
-RUN apt-get -y update && apt-get install -y python-dev python python-pip && pip instsall flask
+RUN apt-get -y update && apt-get install -y python-dev python python-pip && pip install flask
 
 ADD flask /opt/flask
 
